@@ -33,11 +33,6 @@ Vue.use(VueLazyload, {
     //懒加载默认的图片
     loading: candidate
 });
-//引入自定义插件
-import myPlugins from '@/plugins/myPlugins';
-Vue.use(myPlugins, {
-    name: 'upper'
-});
 
 //引入表单校验插件
 import "@/plugins/validate";
